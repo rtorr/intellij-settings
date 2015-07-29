@@ -1,6 +1,8 @@
 intellij-settings
 ===============
 
+![intellij](http://i.imgur.com/m1pwMcC.png)
+
 Some of my nice intellij settings
 
 [http://intellij.rtorr.com/](http://intellij.rtorr.com/)
