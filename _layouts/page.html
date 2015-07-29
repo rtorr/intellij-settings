@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<body class="{{page.lang}}">
+<div class="container">
+  {% include header.html %}
+  <div class="grid-block">
+    <div class="grid-lg-1-2">
+      <h2>Cursor movement</h2>
+      <ul>
+        <li><kbd>Ctrl</kbd> + <kbd>h</kbd> - move cursor left</li>
+        <li><kbd>Ctrl</kbd> + <kbd>j</kbd> - move cursor down</li>
+        <li><kbd>Ctrl</kbd> + <kbd>k</kbd> - move cursor up</li>
+        <li><kbd>Ctrl</kbd> + <kbd>l</kbd> - move cursor right</li>
+      </ul>
+      <div class="well">
+        <strong>Tip</strong> you should check out the <a href="https://www.jetbrains.com/idea/help/basic-editing.html">intellij docs</a> for more keyboard shortcuts.
+        Remember that all commands and most controls in intellij can be customized in your settings.
+      </div>
+      <h2>Terminal</h2>
+      <ul>
+        <li><kbd>Ctrl</kbd> + <kbd>x</kbd> - opens/closes a terminal window</li>
+      </ul>
+    </div>
+    <div class="grid-lg-1-2">
+      <h2>Navigation and Tabs</h2>
+      <ul>
+        <li><kbd>CMD</kbd> + <kbd>p</kbd> - fuzzy find file in project</li>
+        <li><kbd>CMD</kbd> + <kbd>e</kbd> - fuzzy find recently opened file (use this over tabs)</li>
+        <li><kbd>CMD</kbd> + <kbd>t</kbd> - navigate current file by file structure</li>
+        <li><kbd>Ctrl</kbd> + <kbd>v</kbd> - split current window vertically</li>
+        <li><kbd>Ctrl</kbd> + <kbd>w</kbd> + <kbd>Ctrl</kbd> + <kbd>w</kbd> - switch between window splits</li>
+        <li><kbd>CMD</kbd> + <kbd>up arrow</kbd> - open file navigation (you can fuzzy search, navigate with arrows, and do all of the
+        shortcuts that you can in the file tree)</li>
+      </ul>
+      <div class="well">
+        <strong>Tip</strong> tabs are turned off visually.
+      </div>
+  </div> <!-- end grid-block -->
+
+  {% include footer.html %}
+
+</div> <!-- end container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25408695-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>

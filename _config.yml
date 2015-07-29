@@ -1,0 +1,21 @@
+# Site settings
+title: Intellij Settings
+email: rtorruellas@gmail.com
+description: "Some of my nice intellij settings"
+baseurl: ""
+url: "http://intellij.rtorr.com"
+twitter_username: richardiii
+github_username: rtorr
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en_us"
+
+      footer: "Checkout the source on"
